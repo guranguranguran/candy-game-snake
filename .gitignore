@@ -1,0 +1,14 @@
+# OS / editor junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+
+# Node (测试脚本无需依赖，此处仅兜底)
+node_modules/
+npm-debug.log*
+
+# 本地临时文件
+*.log
+.hermes/

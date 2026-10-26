@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #0e1620;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+}
+
+/* 画布逻辑尺寸固定 960x640，按窗口等比缩放 */
+#cv {
+  width: min(100vw, 150vh);
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  background: #eef2f5;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, .55);
+}
